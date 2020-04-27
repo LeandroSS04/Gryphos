@@ -7,6 +7,7 @@ body{
 }
 .test{
     float: left;
+    margin-left: 60px;
 }
 
 .menu ul {
@@ -43,7 +44,7 @@ body{
 }
 
 .block-1 h3{
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 30px;
     
 }
@@ -88,7 +89,59 @@ body{
 .int-block-2{
     width: 500px;
     height: 400px;
-    
-    margin-left: 200px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
     text-align: left;
+}
+
+.int-block-2 h1{
+    font-size: 45px;
+}
+
+.int-block-2 p{
+    font-size: 17px;
+}
+
+.int-block-2 a{
+    color: #7ab3b3;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.int-block-2 img{
+
+   
+   margin-bottom: -4px;
+    
+}
+
+.int-block-2 h3{
+    color: #7ab3b3;
+    margin-top: -9px;
+}
+
+.block-4{
+    background-color: #181f2b;
+    height: 200vh;
+}
+
+.interior{
+    width: 300px;
+    height: 190;
+    float: left;
+    background-color: #21293c;
+    margin-left: 90px;
+    margin-top: 150px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.interior img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 10px;
 }
